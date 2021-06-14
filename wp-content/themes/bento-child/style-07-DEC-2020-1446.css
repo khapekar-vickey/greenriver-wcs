@@ -1,0 +1,595 @@
+/*
+
+Theme Name: Bento Child
+
+Theme URI: http://satoristudio.net/bento-free-wordpress-theme/
+
+Author: Shivakumar Karunakar
+
+Author URI: http://satoristudio.net/
+
+Description: Bento 2.0 is here! A powerful yet user-friendly free WordPress theme intended for use in the broadest range of web projects. It boasts premium-grade design and is packed with awesome features, some of which are unique for free themes. Bento is mobile-friendly (responsive), retina-ready, optimized for speed, and implements SEO (search engine optimization) best practices. The theme offers unprecedented customization flexibility through the native WP Customizer interface as well as built-in layouts, including one-page template option. Unlimited color combinations for every element of the website, 500+ high-quality vector icons, advanced typography based on Google Fonts, and tons of other cool options and settings make it an ultimate tool for creating websites that are eye-pleasing, unique, and tailored to your needs. The theme offers advanced WooCommerce integration, including page templates, widgets, as well as full checkout funnel styling. Some other small but pleasant features include native infinite scroll, fixed menu options, and detailed settings for customizing the look of each individual page. Bento has been developed by an Envato Elite author who has sold 2000+ premium templates on ThemeForest, the largest marketplace in the industry; the theme implements clean, well-commented, developer-friendly code, and includes detailed documentation and a child theme template. Special attention has been paid to ensuring outstanding UX (user experience) and bringing the best in current web design trends and practices to the widest possible audience. Bento is being constantly maintained by its author and offers regular free updates with bugfixes and additional features.
+
+Template: bento
+
+Version: 2.2.1
+
+License: GNU General Public License v3 or later
+
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-menu, custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio
+
+Text Domain: bento
+
+Domain Path: /languages/
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+@import url("../../bento/style.css");
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Sanchez:400,400i");
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.site-content{
+    background-color:#fff !important;
+}
+/***Header***/
+.topbar-1 {
+    background-color: #0180a9;
+  
+}
+
+.logo{
+    padding: 4px 0 !important;
+}
+.topbar-1 img {
+    height: 57px;
+    width: 316px;
+}
+
+    .topbar-1 div{
+        /*margin: 0px auto;*/
+        margin: 0;
+    }
+
+
+.topbar-2 {
+    background-color: #ffffff;
+}
+
+.topbar-2 img {
+    height: 15px;
+    width: 15px;
+    margin-top: -2px;
+  }
+  .topbar-2 .contact {
+    margin: auto 15px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+.topbar-1 div ul li a{
+    font-size:16px !important;
+    font-weight:500 !important;
+    color:#fff;
+    text-decoration:none;
+}
+ .topbar-1 div ul li a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.topbar-2 div .searchBx {
+    display: block !important;
+    width: 100%;
+    padding: .375rem .75rem !important;
+    font-size: 1.5rem !important;
+    line-height: 1.5 !important;
+    color: #495057 !important;
+    background-color: #fff !important;
+    background-clip: padding-box !important;
+    border: 1px solid #ced4da !important;
+    border-radius: .25rem !important;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+
+.login-btn {
+    background: #288942 !important;
+    color: #ffffff;
+    font-size: 20px;
+    height: max-content;
+}
+
+.site-content{
+    padding:0px !important;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+/**Main***/
+.main {
+    background-image: url("../../../uploads/2020/11/Group-87.png");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.BxCnt {
+    position: absolute;
+    bottom: 14%;
+    left: 0;
+    right: 0;
+}
+
+    .BxCnt .Bx {
+        border: 2px solid #b4b8b5;
+        padding: 6px;
+        margin: 10px;
+    }
+
+.box {
+    background: #288942 !important;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px 20px;
+    width: 280px;
+    text-align: center;
+}
+
+    .box img {
+        height: 80px;
+        width: 91px;
+    }
+
+    .box span a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+
+/***Service section**/
+
+.service h4 {
+    color: #288942 !important;
+    text-align: center;
+    font-size: 26px;
+    font-family: 'Roboto', sans-serif !important;
+  }
+  
+  .service p {
+    font-size: 16px;
+    text-align: center;
+    margin: auto 10px;
+    letter-spacing: 0.36px;
+  }
+  .entry-content ul{
+    margin: 0px;
+    padding: 0 !important;
+  }
+  .entry-content ul li{
+    font-size: 14px;
+  }
+
+.home-page-service-p p {
+    text-align: left !important;
+}
+
+.boxCont.mt-3 {
+    margin-top: 2.5rem !important;
+}
+
+/**ImageBx***/
+
+
+.ImgBx {
+    position: relative;
+    overflow: hidden;
+}
+.ImgBx img{
+    transition: transform 1s;
+}
+.ImgBx:hover > img{
+    transform: scale(1.5);
+}
+
+
+.ImgTxt {
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+a, .site-content a:not(.button) {
+    /*color: #238BC3;*/
+    color: #0180A9;
+}
+
+a:hover{
+    text-decoration: none;
+}
+ .ImgTxt a {
+    text-decoration: none ;
+    color: #ffffff !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+        .ImgTxt a:hover {
+            text-decoration: none !important;
+            color: #ffffff !important;
+        }
+
+/**Service-footer**/
+.service-footer {
+    background-color: #f5f5f5;
+    padding: 15px 72px;
+    margin: 10px auto;
+}
+
+    .service-footer img {
+        width: 170px;
+        height: 80px;
+        margin: 1rem;
+    }
+
+    .service-footer p {
+        font-size: 17px;
+        font: Roboto-Medium;
+        color: #2d2a2a;
+        text-align: justify;
+        letter-spacing: 0.22px;
+    }
+
+
+@media(max-width: 806px) {
+    .service-footer {
+        flex-wrap: wrap;
+    }
+}
+/**Footer**/
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+footer {
+    background-color: #0180a9;
+    color: #ffffff;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.sections {
+    display: flex;
+    justify-content: space-around;
+    align-items: left;
+    padding: 30px 10px;
+    flex-wrap: wrap;
+}
+
+.sec h3 {
+    font: normal normal bold 20px/46px Lato;
+    letter-spacing: 0.24px;
+}
+
+
+
+.widget .textwidget ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    transition: all 0.3s ease;
+}
+
+
+  .widget .textwidget ul li a:hover {
+        font-size: 20px;
+        font-weight: 500;
+       
+    }
+
+.sec-1 ul li {
+    margin-bottom: 7px;
+}
+
+.sec-2 ul li {
+    margin-bottom: 10px;
+}
+
+.sec-3 .row {
+    margin-left: 0px;
+}
+
+.sec-3 .col-sm-3 {
+    padding-right: 0px;
+}
+
+.sec-3 label {
+    font-size: 14px;
+}
+label {
+    font-size: 16px !important;
+    font-family: "Lato" !important;
+    font-style:normal !important;
+    color:#000 !important;
+}
+input{
+    background:#fff !important;
+    border: 1px solid #cacaca !important;
+    font-size:18px !important;
+}
+input[type="date"]{
+    height:50px !important;
+    font-size:14px !important;
+}
+
+select{
+    height:50px !important;
+    font-size:14px !important;
+}
+
+form .form-group .contact-input {
+    border: none;
+    border-radius: 0rem;
+}
+
+.sec-3 form .footer-btn {
+    border: 1px solid #ffffff;
+    color: #2d2a2a;
+    border-radius: 0rem;
+}
+
+.copyright p {
+    color: #2d2a2a;
+    height: 70px;
+    font-size: 8px;
+    padding-top: 15px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}
+
+/*Header Primary Menu Colors*/
+.primary-menu > li > a, #nav-mobile li a, .mobile-menu-trigger, .mobile-menu-close, .ham-menu-close{
+    
+    font-size: 18px !important;
+    color: #ffffff;
+    font-weight:400 !important;
+    text-transform: uppercase !important;
+}
+.primary-menu > li > a:hover, #nav-mobile li a:hover{
+text-decoration: underline !important;
+}
+/*Header Primary Menu Colors*/
+
+/*Footer Copyright Colors*/
+.copyright.container.bg-light.footer-copyright{
+	color:#fff !important;
+	text-align:center !important;
+}
+.footer-copyright, .footer-menu{
+	padding:0px !important;
+	float:none !important;
+	text-align:center !important;
+}
+
+.live-content-footer div h4 {
+    color: #0180A9;
+    text-align: left;
+    /*font: normal normal Bold 36px/62px Segoe UI;*/
+    font-size: 30px;
+    font-family: 'Segoe UI';
+    letter-spacing: 0.72px;
+}
+
+.live-content-footer div .btn {
+    width: 8rem !important;
+    border-radius: .25rem !important;
+    font-size: 1rem !important;
+}
+.admin-editor-anchor {
+    color: #0180a9 !important;
+}
+.admin-bullets {
+    list-style-type:disc !important;
+    padding:15px !important;
+    margin-left:20px !important;
+}
+.admin-bullets-ol {
+    list-style-type: decimal !important;
+    padding: 15px !important;
+}
+.admin-bullets li {
+    margin: 10px !important;
+}
+
+.card, .card-header {
+    border: none !important;
+}
+
+
+.card-header {
+    padding: 0rem !important;
+    background-color: #007bff !important;
+}
+
+.card-body{
+    border: none;
+    border-bottom: 1px solid #0180A9;
+    border-left:  1px solid #0180A9;
+    border-right:  1px solid #0180A9;
+}
+.card-body .card-text {
+    /*margin: 2rem 1.5rem;*/
+    margin: 5rem 1.5rem;
+}
+
+.panel-title {
+    position: relative;
+  }
+    
+  .panel-title [data-toggle="collapse"]:after {
+      content: "\f106";
+      color: #fff;
+      top: 6px;
+      right: 10px;
+      position: absolute;
+      font-family: "FontAwesome"
+  }
+  
+  .panel-title [data-toggle="collapse"].collapsed::after {
+      content: "\f107";
+  }
+
+  .card-header h5 .btn{
+     border-radius: 0rem;
+  }
+ 
+
+  .card-header h5 .btn:focus{
+      box-shadow: none;
+  }
+
+.breadcrumb-item a {
+    color: #0180a9 !important;
+}
+
+/*Form CSS*/
+.fourth-active-link {
+    background-color: #0180A9;
+}
+
+    .fourth-active-link span {
+        color: #ffffff !important;
+    }
+
+.forms-container {
+    width: 100%;
+}
+
+.forms {
+    background-image: url('./images/bgCard.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    border-radius: .8rem;
+}
+
+    .forms p {
+        text-align: center;
+    }
+
+.btm-btn {
+    float: inline-end;
+}
+
+    .btm-btn a {
+        text-decoration: none;
+        color: #288942;
+        background-color: #ffffff;
+        padding: .2rem .5rem;
+        border-radius: .2rem;
+    }
+
+        .btm-btn a:hover {
+            text-decoration: none;
+            color: #288942;
+        }
+
+.live-content .right .para {
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    font: normal normal normal 18px/30px Lato;
+    letter-spacing: 0.36px;
+    color: #2D2A2A;
+    padding: 1.5rem 0rem;
+}
+.para2{
+    font-size:18px !important;
+}
+
+.headingAlign {
+    margin-left: 5rem !important;
+}
+
+
+.para {
+    margin-left: 5rem;
+}
+
+.para2 {
+    margin-left: 5rem;
+}
+
+    .para a {
+        text-decoration: underline;
+    }
+
+    .para2 a {
+        text-decoration: underline;
+    }
+
+.formAlignment {
+    margin-top: -40px;
+}
+
+.button {
+    height: 40px;
+    background: green !important;
+    color: white;
+    margin-top: 8px;
+    border-radius: 8px !important;
+}
+
+.labelAlign {
+    margin-left: -12px;
+}
+
+.printPleaseAlign {
+    font-size: 14px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .live-content {
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+    }
+}
+/*Form CSS*/
+
+/*Footer Copyright Colors*/

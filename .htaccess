@@ -13,3 +13,9 @@ RewriteRule . /greenriver-wcs/index.php [L]
 </IfModule>
 
 # END WordPress
+
+php_value max_input_nesting_level 128
+php_value max_input_time 300
+php_value max_input_vars 3000
+php_value max_execution_time 300
+php_value post_max_size 32M

@@ -1,0 +1,192 @@
+/*
+
+Theme Name: Bento Child
+
+Theme URI: http://satoristudio.net/bento-free-wordpress-theme/
+
+Author: Shivakumar Karunakar
+
+Author URI: http://satoristudio.net/
+
+Description: Bento 2.0 is here! A powerful yet user-friendly free WordPress theme intended for use in the broadest range of web projects. It boasts premium-grade design and is packed with awesome features, some of which are unique for free themes. Bento is mobile-friendly (responsive), retina-ready, optimized for speed, and implements SEO (search engine optimization) best practices. The theme offers unprecedented customization flexibility through the native WP Customizer interface as well as built-in layouts, including one-page template option. Unlimited color combinations for every element of the website, 500+ high-quality vector icons, advanced typography based on Google Fonts, and tons of other cool options and settings make it an ultimate tool for creating websites that are eye-pleasing, unique, and tailored to your needs. The theme offers advanced WooCommerce integration, including page templates, widgets, as well as full checkout funnel styling. Some other small but pleasant features include native infinite scroll, fixed menu options, and detailed settings for customizing the look of each individual page. Bento has been developed by an Envato Elite author who has sold 2000+ premium templates on ThemeForest, the largest marketplace in the industry; the theme implements clean, well-commented, developer-friendly code, and includes detailed documentation and a child theme template. Special attention has been paid to ensuring outstanding UX (user experience) and bringing the best in current web design trends and practices to the widest possible audience. Bento is being constantly maintained by its author and offers regular free updates with bugfixes and additional features.
+
+Template: bento
+
+Version: 2.2.1
+
+License: GNU General Public License v3 or later
+
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+Tags: one-column, two-columns, right-sidebar, left-sidebar, grid-layout, custom-background, custom-colors, custom-menu, custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio
+
+Text Domain: bento
+
+Domain Path: /languages/
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+*/
+
+@import url("../../bento/style.css");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i|Sanchez:400,400i");
+@import url('https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sanchez&display=swap');
+@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/***Header***/
+
+  .topbar-1 {
+    background-color: #0180a9;
+    padding: 19px;
+  }
+  
+  .topbar-1 img {
+    /*height: 40px;*/
+    width: 200px;
+  }
+  
+  .topbar-1 div a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .topbar-2 {
+    background-color: #ffffff;
+  }
+  .topbar-2 img {
+    height: 27px;
+    width: 20px;
+  }
+  .topbar-2 .contact {
+    margin: auto 18px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .login-btn {
+    background: #288942;
+    color: #ffffff;
+    font-size: 20px;
+    height: max-content;
+  }
+
+
+
+
+   /**Footer**/
+
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+}
+footer {
+  background-color: #0180a9;
+  color: #ffffff;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.sections {
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  padding: 30px 10px;
+  flex-wrap: wrap;
+}
+
+.sec h3 {
+  font: normal normal bold 20px/46px Lato;
+  letter-spacing: 0.24px;
+}
+
+.sec ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  transition: all 0.2s ease;
+}
+
+
+.sec ul li a:hover{
+  font-size: 18px;
+  font-weight: 500;
+}
+.sec-1 ul li {
+  margin-bottom: 7px;
+}
+
+.sec-2 ul li {
+  margin-bottom: 10px;
+}
+
+.sec-3 .row {
+  margin-left: 0px;
+}
+
+.sec-3 .col-sm-3 {
+  padding-right: 0px;
+}
+.sec-3 label {
+  font-size: 14px;
+}
+
+form .form-group .contact-input {
+  border: none;
+  border-radius: 0rem;
+
+}
+
+.sec-3 form .footer-btn {
+  border: 1px solid #ffffff;
+  color: #2d2a2a;
+  border-radius: 0rem;
+}
+.copyright p {
+ 
+  color: #2d2a2a;
+  height: 70px;
+  font-size: 18px;
+  padding-top: 15px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+
+}
+
+/*Header Primary Menu Colors*/
+.primary-menu > li > a, #nav-mobile li a, .mobile-menu-trigger, .mobile-menu-close, .ham-menu-close{
+    
+    font-size: 18px !important;
+    color: #ffffff;
+	font-weight:400 !important;
+}
+.primary-menu > li > a:hover, #nav-mobile li a:hover{
+text-decoration: underline !important;
+}
+/*Header Primary Menu Colors*/
+
+/*Footer Copyright Colors*/
+.copyright.container.bg-light.footer-copyright{
+	color:#fff !important;
+	text-align:center !important;
+}
+.footer-copyright, .footer-menu{
+	padding:0px !important;
+	float:none !important;
+	text-align:center !important;
+}
+/*Footer Copyright Colors*/

@@ -1,0 +1,383 @@
+@media (max-width: 1187px) {
+    .home-solutions-each {
+        margin-bottom: 30px;
+    }
+    .innermain .blog {
+        padding: 4rem 15px;
+    }
+    .full-width-container {
+        width: 100%;
+    }
+    form#searchform div input[type="text"] {
+        width: 62%;
+    }
+}
+
+@media (max-width:1140px) {
+    .managed-services-wrapper,
+    .solutions-wrapper {
+        width: 100%;
+    }
+}
+
+@media (max-width:1115px) {
+    .innermain .capabilities-top {
+        padding: 0 15px !important;
+    }
+    .innermain .methodology1 {
+        padding: 4rem 15px;
+    }
+    .innermain .partners-top {
+        padding: 0 0 0 15px;
+    }
+    .partners-top>.row {
+        margin-right: 0;
+    }
+    .about-wrapper {
+        width: 100%;
+    }
+    .about-us-banner .banner .inner-banner {
+        width: 100%;
+    }
+    .leadership-wrapper,
+    .culture-wrapper,
+    .news-wrapper,
+    .mission-wrapper {
+        width: 100%;
+    }
+    .gallery-container {
+        width: 100%;
+    }
+    #about-us .box {
+        width: 100%;
+    }
+    .testimonial-slide {
+        width: 100%;
+    }
+}
+
+@media (max-width:1094px) {
+    .full-width-container {
+        width: 100%;
+        margin: 0;
+    }
+    .about-us-banner .banner .inner-banner h1 {
+        padding-left: 15px;
+    }
+    .about-us-banner .banner .inner-banner img {
+        padding-right: 15px;
+    }
+}
+
+@media (max-width:991px) {
+    .home-casestudy-each-left img {
+        margin-top: 0%;
+    }
+    .home-solutions-each-top {
+        padding-top: 0rem;
+    }
+    .partners-top>.row {
+        margin-right: 0;
+    }
+    .home-casestudy-each-right {
+        order: 2;
+    }
+    .home-casestudy-each-left {
+        order: 1;
+    }
+    .service-wrapper .services {
+        width: 100%;
+    }
+    .reveal {
+        display: none;
+    }
+}
+
+@media (max-width:830px) {
+    .leadership-wrapper .principles,
+    .leadership-wrapper .principles1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .leadership-wrapper .principles .leader-box,
+    .leadership-wrapper .principles1 .leader-box {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+    .leadership-wrapper .principles .leader-box,
+    .leadership-wrapper .principles1 .leader-box {
+        width: 33%;
+        margin-bottom: 20px;
+    }
+    .leadership-wrapper .principles .leader-box:nth-child(3n),
+    .leadership-wrapper .principles1 .leader-box:nth-child(3n) {
+        border-right: none;
+    }
+    .slider.responsive .slick-prev {
+        left: 85%;
+        top: -17px;
+    }
+    .slider.responsive .slick-next {
+        right: 5%;
+        top: -17px;
+    }
+}
+
+@media (max-width:791px) {
+    .services-list-wrapper .list,
+    .services-list-wrapper .list1 {
+        width: 100%;
+    }
+}
+
+@media (max-width:767px) {
+    .contactus>.col-lg-12.col-md-12 {
+        padding: 0;
+    }
+    form#searchform div input[type="text"] {
+        width: 62%;
+    }
+    #about-us .box {
+        width: 427px;
+        margin: 0 auto;
+    }
+    .slider.responsive .slick-prev {
+        left: 85%;
+        top: -17px;
+    }
+    .slider.responsive .slick-next {
+        right: 5%;
+        top: -17px;
+    }
+    .home-casestudy-each-right {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+    .capabilities-img {
+        order: -1;
+    }
+    .partners-top .col-md-6.mb-5.img {
+        order: -1;
+    }
+    .capabilities-img {
+        margin-bottom: 0px;
+    }
+    .innermain .capabilities-box-each {
+        padding: 1rem 3rem 2rem 3rem;
+    }
+    .innermain .capabilities-each {
+        padding: 2rem 0;
+    }
+    .innermain .methodology1 {
+        padding: 0rem 15px;
+    }
+    .category-capabilities.format-standard .post-thumbnail {
+        height: auto;
+    }
+}
+
+@media (max-width:630px) {
+    .about-us-banner .banner h1 {
+        font-size: 24px;
+        line-height: 30px;
+        padding-left: 15px;
+    }
+    .about-us-banner .banner .inner-banner img {
+        padding-right: 15px;
+    }
+    .services-list-wrapper .list,
+    .services-list-wrapper .list1 {
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .box-border-right,
+    .box-border-bottom {
+        border: none;
+    }
+    .list .service-box,
+    .list1 .service-box {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:575px) {
+    .footer-header img {
+        display: block;
+        margin: 0 auto;
+    }
+    .home-casestudy-each-left {
+        min-height: auto;
+    }
+    .innermain .capabilities-top {
+        padding: 0 15px !important;
+    }
+    .capabilities-box .capabilities-box-each {
+        width: 100%;
+    }
+    .innermain-title h1,
+    .innermain-title h2 {
+        font-size: 4.4rem;
+    }
+    .about-us-banner .banner .inner-banner h1 {
+        padding: 0 15px;
+    }
+    .managed-services-wrapper,
+    .solutions-wrapper {
+        padding: 20px 5rem;
+    }
+    .case-studies-wrapper {
+        padding: 20px 0rem;
+    }
+    .banner-overlay .overlay-content {
+        font-size: 15px;
+    }
+    .service-list-bg {
+        padding: 20px 0;
+    }
+    .solutions-wrapper .col-md-6:last-child {
+        order: -1;
+    }
+}
+
+@media (max-width:530px) {
+    .about-us-banner .banner .inner-banner {
+        flex-direction: column;
+    }
+    .about-us-banner .banner h1 {
+        text-align: center;
+        margin-top: 72px;
+    }
+    .about-us-banner .banner .inner-banner img {
+        display: none;
+    }
+    .leadership-wrapper .principles .leader-box,
+    .leadership-wrapper .principles1 .leader-box {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .leadership-wrapper .principles .leader-box:nth-child(even),
+    .leadership-wrapper .principles1 .leader-box:nth-child(even) {
+        border-right: 0;
+    }
+    #about-us .box {
+        width: 100%;
+    }
+    .leadership-wrapper .principles .leader-box:nth-child(3n),
+    .leadership-wrapper .principles1 .leader-box:nth-child(3n) {
+        border-right: 2px dashed #ddd;
+    }
+    .leadership-wrapper .principles .leader-box:nth-child(2n),
+    .leadership-wrapper .principles1 .leader-box:nth-child(2n) {
+        border-right: none;
+    }
+    .slider.responsive .slick-prev {
+        left: 80%;
+        top: -17px;
+    }
+    .slider.responsive .slick-next {
+        right: 5%;
+        top: -17px;
+    }
+    .banner .banner-overlay {
+        width: 100%;
+    }
+    .leadership-wrapper .principles1 {
+        border-top: none;
+    }
+}
+
+@media (max-width:474px) {
+    .slick-initialized .slick-slide img {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:465px) {
+    .news {
+        flex-direction: column;
+    }
+    .news .logo1 img {
+        display: block;
+        margin: 0 auto 20px;
+    }
+    .leadership-wrapper .principles .leader-box:nth-child(2n),
+    .leadership-wrapper .principles1 .leader-box:nth-child(2n) {
+        border-right: none;
+    }
+}
+
+@media (max-width:424px) {
+    .wpcf7-form-control.wpcf7-submit,
+    .wpcf7-form-control.wpcf7-submit.btn-consult {
+        display: block;
+        margin: 0 auto;
+    }
+    .wpcf7-form-control-wrap.your-file-resume input {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media (max-width:400px) {
+    .media {
+        flex-direction: column;
+    }
+    .media img {
+        display: block;
+        margin: 0 auto 15px !important;
+    }
+    .media-body {
+        text-align: center;
+    }
+    .innermain .methodology1 {
+        padding: 0rem 15px;
+    }
+    .innermain .partners-top {
+        padding: 0 0 0 15px;
+    }
+    #about-us .box {
+        width: 100%;
+        flex-direction: column;
+    }
+    #about-us .inner-box {
+        margin: 0 auto;
+    }
+    .box-border-right1 {
+        border: none;
+    }
+    .leadership-wrapper .principles .leader-box,
+    .leadership-wrapper .principles1 .leader-box {
+        width: 100%;
+        border-right: none;
+    }
+    .leadership-wrapper .principles .leader-box:nth-child(3n),
+    .leadership-wrapper .principles1 .leader-box:nth-child(3n) {
+        border-right: none;
+    }
+    .list .service-box,
+    .list1 .service-box {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:370px) {
+    .testimonial-slide .carousel-control-prev {
+        left: 75%;
+        top: 24px;
+        height: 50px;
+    }
+    .testimonial-slide .carousel-control-next {
+        right: 1%;
+        top: 24px;
+        height: 50px;
+    }
+    .leadership-wrapper h2:before {
+        top: 92px;
+    }
+}
+@media (max-width:320px){
+	.about-us-banner .banner .inner-banner h1{
+		padding:0 5px;
+	}
+}
